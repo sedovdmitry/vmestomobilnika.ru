@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAWC,0BAA8B,CAC7B,SAAS,CAAE,IAAI,CAMf,kBAAU,CACT,SAAS,CAAE,GAAG,CAMhB,OAAQ,CACP,qBAAqB,CAAE,MAAM,CAE7B,UAAG,CACF,SAAS,CAAE,KAAK",
+"sources": ["../sass/style-normal.scss"],
+"names": [],
+"file": "style-normal.css"
+}
