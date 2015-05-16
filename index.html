@@ -8,7 +8,7 @@
 		<meta name="keywords" content="Xiaomi Mi Band, фитнес-браслет, обзор фитнес-браслета, умный будильник, шагомер, фитнес-браслет отзывы" />
 		<link rel="shortcut icon" href="/images/favicon.jpg" type="image/jpg">
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script async src="js/jquery-dropotron-scrollgress-skel-skellayers-init.min.js"></script>
+		<script  src="js/jquery-dropotron-scrollgress-skel-skellayers-init.min.js"></script>
 		
 		<!--<script async src="js/jquery.dropotron.min.js"></script>
 		<script async src="js/jquery.scrollgress.min.js"></script>
@@ -27,7 +27,7 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		
-
+		
 	</head>
 	<body class="landing">
 		<!-- Header -->
@@ -68,7 +68,7 @@
 					</div>
 				</section>
 				
-				<section id="delivery">
+				<section id="delivery" name="delivery">
 					<div class="box" >
 						<h3>Почему люди заказывают здесь?</h3>
 						<span class="image featured"><img width=100% height=auto src="images/nol-protsentov-predoplata.jpg" alt="Xiaomi Mi Band" /></span>
@@ -82,7 +82,7 @@
 				<div class="odnoklassniki" title="Поделиться ссылкой в Одноклассниках">Одноклассники</div>
 				<div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
 			</div>
-						<br id="checkout" />
+						<br id="checkout" name="checkout" />
 					</div>
 				</section>
 				
@@ -271,17 +271,14 @@
 					</div>
 				</div>
 
-				<section class="box">
-					<p>Bluetooth подключение в режиме реального времени!</p>
-					<p>Однажды подключившись к смартфону по Bluetooth, браслет остается на связи круглосуточно. Благодаря низкому уровню энергопотребления браслет способен функционировать без подзарядки на протяжении тридцати дней. При открытии специального приложения для Mi Band на экране смартфона отображается основная информация. Более того, после одного года использования браслета, собранные им данные подвергаются анализу, на основе которого у Вас есть возможность получить медицинские рекомендации по здоровому образу жизни. </p>
-				</section>
+				
 				
 				<section>
 					<div class="box">
 						<span class="image featured"><img width=100% height=auto src="images/fitness-tracker-4.jpg" alt="Xiaomi Mi Band" /></span>
 						<h3>Думаете что подарить?</h3>
 						<p>Xiaomi Mi Band — это, пожалуй, один из самых беспроигрышных подарков, которые только можно придумать для близкого человека.</p>
-						<p id="reviews">Как подарок фитнес-браслет подойдет как для мужчины, так и для женщины, если они не испытывают благоговейного ужаса перед смартфоном.</p>
+						<p id="reviews" name="reviews">Как подарок фитнес-браслет подойдет как для мужчины, так и для женщины, если они не испытывают благоговейного ужаса перед смартфоном.</p>
 					</div>
 				</section>
 				
@@ -388,46 +385,14 @@
 					</div>
 				</div>
 
-				<!--
 				<section class="box special features">
-					<div class="features-row">
-						<section>
-							<span class="icon major fa-bolt accent2"></span>
-							<h3></h3>
-							<p>шагомер и измеритель активности.</p>
-						</section>
-						<section>
-							<span class="icon major fa-area-chart accent3"></span>
-							<h3>Ipsum dolor</h3>
-							<p>количество сожженных калорий.</p>
-						</section>
-					</div>
-					<div class="features-row">
-						<section>
-							<span class="icon major fa-cloud accent4"></span>
-							<h3>Sed feugiat</h3>
-							<p>здоровый сон и легкий подъём.</p>
-						</section>
-						<section>
-							<span class="icon major fa-lock accent5"></span>
-							<h3>Enim phasellus</h3>
-							<p>водонепроницаемость (до 1 м под водой).</p>
-						</section>
-					</div>
-					<div class="features-row">
-						<section>
-							<span class="icon major fa-cloud accent4"></span>
-							<h3>Sed feugiat</h3>
-							<p>работа 30 дней без подзарядки.</p>
-						</section>
-						<section>
-							<span class="icon major fa-lock accent5"></span>
-							<h3>Enim phasellus</h3>
-							<p>медицинские рекомендации по здоровому образу жизни лично для Вас (после набора статистики за 1 год).</p>
-						</section>
+					<div  class="features-row">
+						<span class="icon major fa-user-md accent4"></span>
+						<h3>Медицинский анализ вашего образа жизни</h3>
+						<p>После одного года использования браслета, круглосуточно собираемые им данные подвергаются анализу, на основе которого Вы можете получить медицинские рекомендации по здоровому образу жизни. </p>
 					</div>
 				</section>
--->
+
 
 				<section class="box">
 					<h3>Характеристики <b>Xiaomi Mi Band</b>:</h3>
@@ -473,20 +438,84 @@
 									<td>Поддерживаемые устройства:</td>
 									<td>
 										<ul class="alt">
-											<li>Требуется Android 4.4+ или iPhone 4S и выше на iOS 7.1+</li>
-											<li>Требуется Bluetooth 4.0.LE</li>
+											<li>Требуется <b>Android 4.4+</b> или <b>iPhone 4S</b> и выше на <b>iOS 7.1+</b></li>
+											<li>Требуется <b>Bluetooth 4.0.LE</b></li>
 											<li><a href="http://en.miui.com/forum.php?mod=attachment&aid=MTU4Nzk3fDlkYTI3Mjg4fDE0MTE4MTEwNjN8MHwzMzExNA%3D%3D" target="_blank"><img src="images/android.jpg" alt="Xiaomi Mi Band" /></a> <a href="https://itunes.apple.com/us/app/mi-band/id938688461?mt=8" target="_blank"><img src="images/app-store.jpg" alt="Xiaomi Mi Band" /></a></li>
 											<li>Функция разблокировки экрана работает только на устройствах Xiaomi: Xiaomi Mi3, Mi4, RedMi Note 4G, RedMi 1s 4G. </li>
 										</ul>
 									</td>
+								</tr>
+								<tr>
+									<td>Инструкция:</td>
+									<td><b>руководство по первому запуску официального приложения Xiaomi Mi Band</b>: <a href="http://vmestomobilnika.ru/files/XiaomiMiBand_manual.pdf" target="_blank">скачать</a></td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 				</section>
 				
+				<section class="box special features">
+					<div class="features-row">
+						<span class="icon major fa-hand-o-up accent3"></span>
+						<h3>Небольшой нюанс при регистрации</h3>
+						<p>Первичная регистрации в приложении возможна с помощью email или номера телефона. При регистрации по номеру телефона необходимо ввести номер телефона в формате 007XXXXXXXXXX (где 007 — код страны Россия, XXXXXXXXXX — номер телефона). Затем в приложении необходимо ввести полученный код регистрации. В дальнейшем при входе в систему для авторизации необходимо вводить номер телефона в формате +7XXXXXXXXXX, где +7 — код страны Россия, XXXXXXXXXX — номер телефона. </p>
+					</div>
+				</section>
+				
 				<section class="box">
 					<h3><center>хорошая локализация на русском от фанатов Mi Band <a href="http://soft.miui.su/programms/xiaomi/miband/mifit_1.4.452_miuisu.apk" target="_blank">MiFit_1.4.452_miuisu</a></center></h3>
+					<div class="row">
+					<div class="6u 12u(narrower)">
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-1.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-2.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-3.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+						
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-4.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+						
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-6.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+						
+						
+				
+					</div>
+					
+					<div class="6u 12u(narrower)">
+						
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-7.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+						
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-8.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+						
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-9.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-10.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+						
+						<section class="box">
+							<span class="image featured"><img width=100% height=auto src="images/Xiaomi_MiBand_russian_prilozhenie-11.jpg" alt="Xiaomi Mi Band" /></span>
+						</section>
+						
+						
+						
+					</div>
+				</div>
 				</section>
 				
 				<section class="box">
@@ -500,7 +529,7 @@
 		<!-- CTA -->
 			<section id="cta">
 			
-				<h2>заказать фитнес-браслета</h2>
+				<h2>заказать фитнес-браслет</h2>
 
 				<form>
 					<div class="row uniform 50%">
@@ -517,8 +546,9 @@
 						-->
 						<div class="12u">
 							<ul class="actions">
-								<li><a href="#checkout"><input type="submit" value="Заказать" /></a></li>
-								<li><a href="#delivery"><input type="submit" value="Доставка и оплата" class="alt" /></a></li>
+								<li><a href="#checkout" class="topLink"><input type="submit" value="Заказать" /></a></li>
+								<li><a href="#delivery" class="topLink"><input type="submit" value="Доставка и оплата" class="alt" /></a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -532,9 +562,8 @@
 			
 		<!-- Footer -->
 			<footer id="footer">
-			
 				<ul class="copyright">
-					<li>&copy; Интернет-магазин <a href="http://vmestomobilnika.ru">vmestomobilnika.ru</a>. Все права защищены. 2013-2015 </li><li>Вёрстка: Дмитрий Седов</li>
+					<li>&copy; Интернет-магазин «Вместо Мобильника» <a href="http://vmestomobilnika.ru">vmestomobilnika.ru</a>. Все права защищены. 2013-2015 </li><li>Вёрстка: Дмитрий Седов</li>
 				</ul>
 				<ul class="copyright">
 					<li>ИП Седов А.Г.</li><li>ОГРН: 306645017400020</li>
@@ -553,22 +582,18 @@
 			});
 	</script>
 	
-	<script>
-		$(function() {
-			$('a[href*=#]:not([href=#])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-				var target = $(this.hash);
-				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				if (target.length) {
-					$('html,body').animate({
-					scrollTop: target.offset().top
-					}, 1000);
-					return false;
-				}
-				}
-			});
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('a[href*=#]').bind("click", function(e){
+			var anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $(anchor.attr('href')).offset().top
+			}, 1000);
+			e.preventDefault();
 		});
-	</script>
+		return false;
+	});
+</script>
 	
 	<!-- Асинхронная загрузка timegenerator'a -->
 		<div id="script_ad" class="script_ad" style="display:none;">
@@ -585,24 +610,6 @@
 		</script>
 		
 	<script async src="js/social-likes.min.js"></script>
-	<script>
-		(function() {
-    
-    var script,
-        scripts = document.getElementsByTagName('script')[0];
-        
-    function load(url) {
-      script = document.createElement('script');
-      script.async = true;
-      script.src = url;
-      scripts.parentNode.insertBefore(script, scripts);
-    }
-    
-    //load('//apis.google.com/js/plusone.js');
-    //load('//platform.twitter.com/widgets.js');
-    //load('//s.widgetsite.com/widget.js');
-    
-}());
-	</script>
+	
 	</body>
 </html>
