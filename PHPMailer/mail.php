@@ -1,7 +1,7 @@
 <?php
 
 $mailer  = 'vmestomobilnika@gmail.com';
-$pass    = '***';
+$pass    = 'aq{VNd8CS]nPFU(Ndy_)L(BF';
 $to      = 'vmestomobilnika@gmail.com';
 $site    = 'vmestomobilnika.ru';
 $name    = $_POST['name'];
